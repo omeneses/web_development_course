@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine
+}
+
+.card__container{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 1000px;
+    
+}
+
+.card__item{
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 10px;
+    flex-basis: 300px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.card__item--bigger{
+    flex-basis: 500px;
+}
